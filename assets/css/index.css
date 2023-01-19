@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+}
+.presentation {
+    display: flex;
+    width: 90%;
+    height: 100vh;
+}
+.imgbox {
+    flex: 1;
+}
+.imgbox img {
+    width: 90%;    
+}
+.presentation article {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.presentation article h1 {
+    color: white;
+    font-size: 46px;
+    font-family: 'Lato';
+    margin: 0px 0px 10px 0px;
+}
+.presentation article p {
+    width: 500px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Lato';
+}
+
+.container2 {
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    justify-content: center;
+}
+.biography {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgbox2 {
+    flex: 1;
+    height: 330px;
+    background-color: grey;
+    border: 10px solid;
+}
+.imgbox2 h3 {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+.biography img {
+    width: 100%;
+}
+.biography #a1 {
+    flex: 2;
+    display: flex;
+    
+}
+.biography #a2 {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.biography h1 {
+    font-size: 46px;
+    color: white;
+    margin: 10px 0px;
+    width: 100%;
+    flex-direction: column;
+    text-align:initial;
+    font-family: 'Lato';
+}
+.biography p {
+    width: 95%;
+    font-size: 19px;
+    color: white;
+    font-family: 'Lato';
+}
+#a2 p {
+    width: 100%;
+}
+.container3 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    justify-content: center;
+}
+.discography {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.discography h1 {
+    font-size: 46px;
+    color: white;
+    font-family: 'Lato';
+    margin: 10px 0px;
+    width: 100%;
+    flex-direction: column;
+    text-align:initial;
+    margin-top: 20px;
+}
+.discography h2 {
+    font-size: 17px;
+    color: white;
+    font-family: 'Lato';
+}
+.disc {
+    flex: 1;
+}
+.discography ul {
+    color: white;
+    font-size: 16px;
+    padding-left: 17px;
+    line-height: 25px;
+    font-family: 'Lato';
+}
+.imgboxdisc {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+    border: 11px solid black;
+    justify-content: center;
+}
+.albumbox {
+    width: 150px;
+    height: 150px;
+}
+.albumbox img {
+    width: 100%;
+    opacity: 50%;
+}
+.container4 {
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    justify-content: center;
+}
+.participations {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.participations h1 {
+    font-size: 46px;
+    color: white;
+    font-family: 'Lato';
+    margin: 10px 0px 0px;
+    width: 100%;
+    flex-direction: column;
+    text-align:initial;
+    margin-top: 20px;
+}
+.description {
+    flex: 1;
+}
+.participations ul {
+    width: 90%;
+    color: white;
+    font-size: 16px;
+    padding-left: 17px;
+    line-height: 35px;
+    font-family: 'Lato';
+    margin-top: 50px;
+}
+.imgdescbox {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+.imgdescbox img {
+    width: 95%;
+    border: 11px solid black;
+    margin: 0px 0px;
+    box-sizing: border-box;
+}
+
